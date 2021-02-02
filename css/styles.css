@@ -1,0 +1,344 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'merriweather', serif;
+}
+
+h1 {
+  margin: -10px auto 0 auto;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Pangolin', cursive;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2;
+  margin: 0;
+  text-align: center;
+}
+
+h3 {
+  color: #11999E;
+  font-family: cursive;
+  line-height: 3;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  border-width: 10px;
+  margin: 100px auto;
+  width: 5%;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/********** Containers **********/
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 150px;
+}
+
+.middle-container {
+  margin: 80px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+/********** Containers **********/
+/********** Divs **********/
+.skill-row {
+  position: relative;
+  width: 50%;
+  margin: auto auto 100px auto;
+}
+
+.contact-me {
+  margin: auto;
+}
+
+/********** Divs **********/
+/********** Images **********/
+.leftcloud {
+  position: absolute;
+  left: 450px;
+  top: 350px;
+}
+
+.rightcloud {
+  position: absolute;
+  right: 450px;
+  top: 50px;
+}
+
+.howdy-img {
+  width: 10%;
+  height: auto;
+  padding-bottom: 25px;
+}
+
+.skills-img {
+  width: 30%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.king-img {
+  width: 26%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-img {
+  width: 25%;
+  height: auto;
+}
+
+/********** Images **********/
+/********** Texts **********/
+.myname {
+  font-size: 90px;
+  font-family: 'Calligraffitti', cursive;
+}
+
+.bio {
+  width: 27%;
+  margin: auto;
+  text-align: center;
+  font-family: cursive;
+}
+
+.myskills {
+  font-size: 54px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.survivor {
+  font-size: 125%;
+  font-family: 'Press Start 2P', cursive;
+  text-align: left;
+}
+
+.survivortext {
+  margin: 0;
+  text-align: justify;
+  font-family: cursive;
+}
+
+.king {
+  font-size: 125%;
+  font-family: 'Press Start 2P', cursive;
+  text-align: left;
+}
+
+.kingtext {
+  margin: 0;
+  text-align: justify;
+  font-family: cursive;
+}
+
+#getintouch {
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.familygame {
+  font-family: cursive;
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/********** Texts **********/
+/********** Misc **********/
+.contactmebtn {
+  background: #0FD0D7;
+  background-image: -webkit-linear-gradient(top, #0FD0D7, #11999E);
+  background-image: -moz-linear-gradient(top, #0FD0D7, #11999E);
+  background-image: -ms-linear-gradient(top, #0FD0D7, #11999E);
+  background-image: -o-linear-gradient(top, #0FD0D7, #11999E);
+  background-image: -webkit-gradient(to bottom, #0FD0D7, #11999E);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  width: 180px;
+  font-size: 27px;
+  font-weight: 400;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contactmebtn:hover {
+  border: solid #2bc4ad 1px;
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -webkit-gradient(to bottom, #30e3cb, #2bc4ad);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+
+/********** Misc **********/
+/********** Fonts
+
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Pangolin', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Lemonada', cursive;
+font-family: 'Calligraffitti', cursive;
+
+ Fonts **********/
+/********** Recycle Bin
+
+I've started to like video games back in the early 90s when my older brother played Atari games on a black & white TV. When I turned 19, I've started making videos right away (when we could have a
+better Internet platform in my country.) Over time, I gained a wealth of experience in editing and making gaming videos. Moreover, since March 2020, I decided to switch my content's language, and join the English community for various
+reasons. As for a web developer, I'm still a newbie who made his own website.
+
+ <!-- I'm living a life of dreaming full of ideas that can't be done alone or in a high-quality format unless I can connect to more English speaking content creators. -->
+
+.skills-table {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+<br>
+<p style="font-size:22px;"></p>
+<!--  <table class="skills-table" cellspacing="10">
+  <tr>
+    <td>
+      <h3>Hard Skills</h3>
+      <table cellspacing="10">
+        <tr>
+          <td>Computer Skills</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Youtube Skills</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Fast Typing</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Adobe Premiere</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Adobe Photoshop</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Adobe After Effects</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Office Word</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Office Powerpoint</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Office Excel</td>
+          <td>⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Programming</td>
+          <td>⭐</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <h3> Soft Skills</h3>
+      <table cellspacing="10">
+        <tr>
+          <td>Integrity</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Dependability</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Willingness to Learn</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Empathy</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Teamwork</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Creativity</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Time Management</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Adaptability</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Communication</td>
+          <td>⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Leadership</td>
+          <td>⭐</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table> -->
+
+Recycle Bin **********/
